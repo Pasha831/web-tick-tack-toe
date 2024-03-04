@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+}
+
+.board {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 48px;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
